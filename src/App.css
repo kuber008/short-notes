@@ -1,0 +1,11 @@
+/* Fix for textarea text color in Dark Mode */
+body.dark-mode textarea {
+    color: #ffffff; /* Sets text to white */
+    background-color: #333333; /* Optional: Sets a dark background for the text area */
+    border-color: #555555; /* Optional: Adjusts border color to match */
+}
+
+/* Optional: Fix placeholder text color if needed */
+body.dark-mode textarea::placeholder {
+    color: #cccccc;
+}
